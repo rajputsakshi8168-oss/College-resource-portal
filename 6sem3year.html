@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Year</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .semester-card {
+            width: 220px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+
+        .semester-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Select Semester</h1>
+
+    <div class="container">
+
+        <div class="semester-card" onclick="window.location.href='7sub5sem.html'">
+            <h2>Semester 5</h2>
+        </div>
+
+        <div class="semester-card" onclick="window.location.href='7sub6sem.html'">
+            <h2>Semester 6</h2>
+        </div>
+
+    </div>
+
+</body>
+</html>
